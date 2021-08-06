@@ -1,0 +1,118 @@
+:host {
+  height: 100%;
+  display: flex;
+  align-items: stretch;
+}
+.row-layout {
+  flex: 1 1 0;
+  align-items: stretch;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+}
+.column-layout {
+  background-color: #2447A3;
+  background-image: url("https://static.infragistics.com/marketing/IDS/indigo/hero.svg?v=20191212192700");
+  background-size: 100% 100%;
+  width: 50%;
+  align-items: stretch;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+}
+.column-layout_1 {
+  padding: 50px;
+  width: 50%;
+  align-items: stretch;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+}
+.row-layout_1 {
+  margin: 3rem 0 0;
+  align-items: stretch;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+}
+.title {
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  text-align: center;
+  color: var(--igx-surface-500);
+  height: max-content;
+  min-width: min-content;
+  flex: 0 0 auto;
+}
+.image {
+  min-width: 0;
+  width: 40%;
+  min-height: 0;
+  object-fit: fill;
+  margin: 20px 0 0;
+  flex: 0 0 auto;
+}
+.title_1 {
+  margin: 30px 0 0;
+  height: max-content;
+  min-width: min-content;
+  flex: 0 0 auto;
+}
+.text {
+  margin: 3rem 0 0;
+  height: max-content;
+  min-width: min-content;
+  flex: 0 0 auto;
+}
+.text_1 {
+  margin: 20px 0 0;
+  height: max-content;
+  min-width: min-content;
+  flex: 0 0 auto;
+}
+.button {
+  margin: 2rem 0 0;
+  width: 100%;
+  height: max-content;
+  min-width: min-content;
+  flex: 0 0 auto;
+}
+.icon {
+  height: 24px;
+  width: 24px;
+  font-size: 24px;
+  flex: 0 0 auto;
+}
+.input-group {
+  left: 0;
+  width: 48%;
+  top: 0.9943278824344185px;
+  position: absolute;
+  height: max-content;
+  min-width: min-content;
+  flex: 0 0 auto;
+}
+.input-group_1 {
+  right: 0;
+  width: 48%;
+  top: 0.9943278824344185px;
+  position: absolute;
+  height: max-content;
+  min-width: min-content;
+  flex: 0 0 auto;
+}
+.input-group_2 {
+  margin: 3rem 0 0;
+  height: max-content;
+  min-width: min-content;
+  flex: 0 0 auto;
+}
+.row {
+  display: flex;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}
